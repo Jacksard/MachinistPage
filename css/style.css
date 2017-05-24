@@ -1,0 +1,80 @@
+body {
+	background-image: url("../img/239.jpg");
+	background-size: cover;
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'lucid Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+
+	}
+
+h2 {
+	margin-bottom: 200px
+	color: orange;
+}
+
+.feed,
+.drill,
+.rpmm,
+.rpmi {
+	background-color: #233851;
+	width:350px;
+	margin:10px;
+	padding:15px;
+	color: white;
+	border-color: black;
+	border: 2px solid white;
+    border-radius: 5px;
+}
+
+.feed h2,
+.drill h2,
+.rpmm h2,
+.rpmi h2
+
+ {
+ 	margin-bottom: 20px;
+	color: orange;
+}
+
+input[type=text] {
+
+	padding: : 20px;
+    height: 25px;
+    box-shadow: 2px;
+}
+
+input, textarea {
+	padding:12px;
+	margin: 0 0 0 10px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 3px;
+
+}
+
+.drill:hover, .drill:active {
+	background-color: #314f72;
+	color: #FFF;
+	font-color:#fff;
+}
+
+.feed:hover, .feed:active {
+	background-color: #314f72;
+	color: #FFF;
+	font-color:#fff;
+}
+
+.rpmm:hover, .rpmm:active {
+	background-color: #314f72;
+	color: #FFF;
+	font-color:#fff;
+}
+
+.rpmi:hover, .rpmi:active {
+	background-color: #314f72;
+	color: #FFF;
+	font-color:#fff;
+}
+

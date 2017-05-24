@@ -1,33 +1,24 @@
 <DOCTYPE! html>
 
 <html>
-
 <head>
 		<title> Machinist board</title>
 		<meta charset="utf-8" />
 		<script type="text/javascript" src="JS/functions.js" ></script>
 		<link rel="stylesheet" href="css\style.css" type="text/css" media="all" />
-
 </head>
-
 <body class="body">
-
 <!---                    DRILL DEPTH                       -->
 <div class="drill">
-
 	<h2>Drill Diameter Depth Calculation:</h2>
 	<form class="formstyle">
 		<p>Enter Drill size (Inch):<input name="dia1" type="text" size="10" id="diameter"> (e.g.: 0.25)</p>
 	</form>
 	<button onclick="drillDepth()">Claculate</button><br>
-
 <p id="drillDepthAnswer"></p>
-
 </div>
  <!---                   FEED                      -->
-
 <div class="feed">
-
 	<h2>Feed Calculation:</h2>
 	<form class="formstyle">
 		<p>Enter RPM:<input name="rpm1" type="text" size="10" id="rpm">(e.g.: 4000)</p>
@@ -35,42 +26,27 @@
 		<p>Feed per tooth:<input name="fpt1" type="text" size="10" id="fpt">(e.g.: 0.012)</p>
 	</form>
 	<button onclick="feed()">Claculate</button>
-
 <p id="feedAnswer"></p>
-
 </div>
  <!---                   RPM                      -->
-
 <div class="rpmm">
-
 <h2>RPM Calculation:</h2>
-	
 	<form id="metric">
 		<p>Vc (m/min) :<input name="vc" type="text" size="10" id="vc">(e.g.: 80)</p>
 		<p>Tool Diameter (mm):<input name="dia" type="text" size="10" id="diam"></p>
 		</form>
 	<button onclick="rpmMetric()">Claculate</button>
-
 <p id="metricAnswer"></p>
 
 </div>
 
 <div class=rpmi>	
-
 	<form id="imperial">
 		<p>SFM (feet/min) :<input name="sfm" type="text" size="10" id="sfm">(e.g.: 260)</p>
 		<p>Tool Diameter (inch):<input name="diai" type="text" size="10" id="diai"></p>
 		</form>
 	<button onclick="rpmImperial()">Claculate</button>
-
 <p id="imperialAnswer"></p>
-
 </div>
-
 </body>
-
-
-
-
-
 </html>

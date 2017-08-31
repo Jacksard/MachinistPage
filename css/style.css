@@ -4,7 +4,7 @@ body {
 	color: #000305;
 	font-size: 87.5%;
 	font-family: Arial, 'lucid Sans Unicode';
-	line-height: 1.5;
+	line-height: 1.5px;
 	text-align: left;
 
 	}
@@ -40,8 +40,8 @@ h2 {
 
 input[type=text] {
 
-	padding:  20px;
-    height: 25px;
+	padding:  10px;
+    height: 10px;
     box-shadow: 2px;
 }
 
